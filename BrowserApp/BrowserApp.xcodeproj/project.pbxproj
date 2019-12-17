@@ -15,6 +15,7 @@
 		DAE725EE23A8E85D003C1122 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAE725EC23A8E85D003C1122 /* LaunchScreen.storyboard */; };
 		DAE725F923A8E85D003C1122 /* BrowserAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE725F823A8E85D003C1122 /* BrowserAppTests.swift */; };
 		DAE7260423A8E85D003C1122 /* BrowserAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE7260323A8E85D003C1122 /* BrowserAppUITests.swift */; };
+		DAE7261223A8EF43003C1122 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE7261123A8EF43003C1122 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		DAE725FF23A8E85D003C1122 /* BrowserAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrowserAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAE7260323A8E85D003C1122 /* BrowserAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserAppUITests.swift; sourceTree = "<group>"; };
 		DAE7260523A8E85D003C1122 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAE7261123A8EF43003C1122 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		DAE725E023A8E85C003C1122 /* BrowserApp */ = {
 			isa = PBXGroup;
 			children = (
+				DAE7261123A8EF43003C1122 /* WebView.swift */,
 				DAE725E123A8E85C003C1122 /* AppDelegate.swift */,
 				DAE725E323A8E85C003C1122 /* SceneDelegate.swift */,
 				DAE725E523A8E85C003C1122 /* ContentView.swift */,
@@ -268,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAE725E223A8E85C003C1122 /* AppDelegate.swift in Sources */,
+				DAE7261223A8EF43003C1122 /* WebView.swift in Sources */,
 				DAE725E423A8E85C003C1122 /* SceneDelegate.swift in Sources */,
 				DAE725E623A8E85C003C1122 /* ContentView.swift in Sources */,
 			);
