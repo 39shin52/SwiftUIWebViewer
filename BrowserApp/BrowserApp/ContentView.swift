@@ -9,13 +9,13 @@
 import SwiftUI
 
 struct ContentView: View {
+    var url: URL
     var body: some View {
-        Text("Hello, World!")
+        WebView(url: url)
     }
 }
-
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(url: URL(string: "https://apple.com")!)
     }
 }
