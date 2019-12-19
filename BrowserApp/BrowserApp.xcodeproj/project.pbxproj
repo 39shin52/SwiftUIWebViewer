@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA496B3523AB2FB400F6290B /* selectEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA496B3423AB2FB400F6290B /* selectEngine.swift */; };
 		DAE725E223A8E85C003C1122 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE725E123A8E85C003C1122 /* AppDelegate.swift */; };
 		DAE725E423A8E85C003C1122 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE725E323A8E85C003C1122 /* SceneDelegate.swift */; };
 		DAE725E623A8E85C003C1122 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE725E523A8E85C003C1122 /* Main.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DA496B3423AB2FB400F6290B /* selectEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selectEngine.swift; sourceTree = "<group>"; };
 		DAE725DE23A8E85C003C1122 /* BrowserApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrowserApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAE725E123A8E85C003C1122 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAE725E323A8E85C003C1122 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				DAE725E123A8E85C003C1122 /* AppDelegate.swift */,
 				DAE725E323A8E85C003C1122 /* SceneDelegate.swift */,
 				DAE725E523A8E85C003C1122 /* Main.swift */,
+				DA496B3423AB2FB400F6290B /* selectEngine.swift */,
 				DAE7261123A8EF43003C1122 /* WebView.swift */,
 				DAE725E723A8E85D003C1122 /* Assets.xcassets */,
 				DAE725EC23A8E85D003C1122 /* LaunchScreen.storyboard */,
@@ -274,6 +277,7 @@
 				DAE7261223A8EF43003C1122 /* WebView.swift in Sources */,
 				DAE725E423A8E85C003C1122 /* SceneDelegate.swift in Sources */,
 				DAE725E623A8E85C003C1122 /* Main.swift in Sources */,
+				DA496B3523AB2FB400F6290B /* selectEngine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

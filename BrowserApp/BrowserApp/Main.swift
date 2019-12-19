@@ -16,25 +16,19 @@ import SwiftUI
  }*/
 
 struct firstView: View{
-    var url: URL
     var body: some View{
         NavigationView{
-            /*VStack(spacing: 20) {
-                NavigationLink(destination: WebView(url: URL(string: "https://google.com")!)){
-                    Text("Googleで検索")
-                }
-                NavigationLink(destination: WebView(url: URL(string: "https://yahoo.co.jp")!)){
-                    Text("Yahooで検索")
-                }
-            }*/
-            .navigationBarTitle(Text("検索エンジンを選択"))
+            NavigationLink(destination: selectEngine(url: URL(string: "https://google.com")!)){
+                Text("ログイン")
+            }
         }
-    
     }
 }
+
+
 struct MainView_Previews: PreviewProvider {
     static var previews: some View {
-        firstView(url: URL(string: "https://google.com")!)
+        firstView()
     }
 }
 
