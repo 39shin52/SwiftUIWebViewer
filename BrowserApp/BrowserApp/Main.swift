@@ -20,6 +20,9 @@ struct firstView: View{
         NavigationView{
             NavigationLink(destination: selectEngine(url: URL(string: "https://google.com")!)){
                 Text("ログイン")
+                    .font(.largeTitle)
+                    .fontWeight(.regular)
+                    .foregroundColor(Color.red)
             }
         }
     }
